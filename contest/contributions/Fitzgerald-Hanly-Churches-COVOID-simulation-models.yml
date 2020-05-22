@@ -2,8 +2,8 @@
 title: "COVOID: COVID-19 Open-source Infection Dynamics"
 author: Oisin Fitzgerald, Mark Hanly, Tim Churches (UNSW Medicine)
 abstract: |
-  COVOID is a work-in-progress R package and accompanying Shiny app for
-  modelling COVID-19 transmission using deterministic compartmental models
+  COVOID is an evolving but fully-functional R package and accompanying Shiny app
+  for modelling COVID-19 transmission using deterministic compartmental models
   (DCMs). The built-in Shiny app enables ease of use and demonstration of key
   concepts to those without R programming backgrounds. The package contains an
   expanding API for simulating and estimating homogeneous and age-structured
@@ -17,8 +17,7 @@ abstract: |
   including the extended model. Work is ongoing to add the ability to model
   imported cases, enhancing parameter fitting to observed data, and to expand
   the Shiny UI to address the extended model and to manage parameter sensitivity
-  analyses and comparisons of intervention scenario. However, the package and
-  UI are currently functional as-is.
+  analyses and comparisons of intervention scenario.
 # Short name to be used in the website Gallery menu (can be the same as title)
 menu_entry: COVOID
 # URL of the public source code repository
